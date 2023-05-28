@@ -4,6 +4,14 @@ pub fn run(){
 		println!("hello world");
 	}
 
+
+	let x = 2;
+	match x {
+		1 => println!("hello 1"),
+		2 => println!("hello 2"),
+		_ => println!("other"),
+	}
+
 	// infinite loop
 	let mut a = 1;
 	loop {
@@ -22,4 +30,18 @@ pub fn run(){
 		b = b + 1;
 		
 	}
+
+
+	// for loop 
+	for n in 0..100 { // from 0 to 99
+		print!("{n}");
+	}
+
+	println!("");
+
+	for n in 0..=100 { // from 0 to 100
+		print!("{n}");
+	}
+	
+
 }
